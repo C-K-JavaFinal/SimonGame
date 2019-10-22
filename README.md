@@ -8,7 +8,8 @@
   <li>Try to remember each sequence</li>
 </ul>
 <h3>How to download the game</h3>
-<p> Go to this <a href = "https://github.com/C-K-JavaFinal/SimonGame" repository to download the game
+<p> Go to this <a href = "https://github.com/C-K-JavaFinal/SimonGame">repository</a> to download the game
+  <h3>Watch
 
 
 https://youtu.be/cGfPKWH0S3U
