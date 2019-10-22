@@ -1,6 +1,6 @@
 # SimonGame
 <h2>Flowchart</h2>
-![GitHub Logo](SimonFlowchart.jpg)
+<img src = "SimonFlowchat.jpg">
 <h3>Controls</h3>
 <ul>
   <li>Press enter to start playing</li>
