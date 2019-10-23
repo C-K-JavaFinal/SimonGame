@@ -13,4 +13,4 @@ This game is a replica of the handheld game Simon. It creates a playing board, s
   <h3>Watch a demo video of the game here:</h3>
  https://youtu.be/cGfPKWH0S3U
  
- <
+ 
