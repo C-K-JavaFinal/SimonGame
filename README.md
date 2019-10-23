@@ -1,4 +1,5 @@
 # SimonGame
+This game is a replica of the handheld game Simon. It creates a playing board, shows you a color for a second and you have to remember that color and enter it. The game keeps your score, and everytime you get it right it contunies to add to it. There is also a quit button to leave the game early if you do not want to contuine playing. 
 <h2>Flowchart</h2>
 <img src = "https://github.com/C-K-JavaFinal/SimonGame/blob/master/SimonFlowchart.jpg" height = 400 width = 400>
 <h3>Controls</h3>
