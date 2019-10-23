@@ -12,5 +12,8 @@ This game is a replica of the handheld game Simon. It creates a playing board, s
 <p> Go to this <a href = "https://github.com/C-K-JavaFinal/SimonGame">repository</a> to download the game
   <h3>Watch a demo video of the game here:</h3>
  https://youtu.be/cGfPKWH0S3U
- 
- 
+ <h3>Authors</h3>
+<p>Kyle Burton</p>
+<p>Camren Carter</p>
+<p>Riley Larson</p>
+
