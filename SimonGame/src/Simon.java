@@ -38,7 +38,7 @@ public class Simon
     
     }
     
-    public void displayBoard()
+    public void displayBoard() //creates the board
     {
         System.out.print("\n " + "                                                                                Score: " + Integer.toString(score) + "\n \n \n \n");
         System.out.print(
@@ -47,13 +47,13 @@ public class Simon
         "                                                  |" + gameBoard[1][0] + "   " + turn + "   " + gameBoard[1][2] + "|\n" +
         "                                                  |____" + gameBoard[2][1] + "____|");
         
-        System.out.print("\n \n \n \n \n \n \n \n \n \n \n \n \n \n  ");
+        System.out.print("\n \n \n \n \n \n \n \n  ");
     }
     
-    public void randomize()
+    public void randomize() //creates the random number generator
     {
         int number = generateRandom();
-        if(red == number)
+        if(red == number) //Randomizes each color
         {
             gameBoard[0][1] = "R";
             
@@ -159,7 +159,7 @@ public class Simon
         }
     }
 
-    public void play()
+    public void play() // starts running the game and has the main start screen
     {
         while(flag==true)
         {
@@ -170,7 +170,7 @@ public class Simon
     
         clearScreen();
         Scanner reader = new Scanner(System.in);
-		System.out.println("                                               Welcome to SIMON 2000!\n\n\n"); 
+		System.out.println("                                                 Welcome to SIMON!\n"); 
 		System.out.println("                                                     Directions       \n");
 		System.out.println("                    Watch carefully for each 'Color' (really just a Letter) that appears in the grid.");
 		System.out.println("                    You'll have about a second to memorize each one. The number in the middle of the grid");
@@ -218,8 +218,8 @@ public class Simon
             playerTurn = true;
             clearScreen();
             
-            System.out.println(                     "Enter UPPERCASE 'R' = red, 'G' = green, 'Y' = yellow, 'B' = blue                      Type 'E' to close the program \n");
-            System.out.println(                     "For each letter you saw, type that letter, press 'Enter', then type the next, and so on");
+            System.out.println(              "Enter UPPERCASE 'R' = red, 'G' = green, 'Y' = yellow, 'B' = blue                      Type 'E' to close the program \n");
+            System.out.println(              "For each letter you saw, type that letter, press 'Enter', then type the next, and so on");
 
             
             
